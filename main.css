@@ -64,8 +64,8 @@ p {
   font-size: 22;
   padding: 00 0 0 0px;
   color: #000000;
-  font-family: verdana; 
-   margin: 0;  
+  font-family: verdana;
+  margin: 0;
 }
 
 li {
@@ -93,7 +93,7 @@ span {
 }
 
 .white {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255, 0.836);
 }
 
 .black {
