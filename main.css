@@ -1,6 +1,7 @@
-html{
+html {
   background-color: rgba(128, 128, 128, 0.219);
 }
+
 body {
   font-family: verdana;
   color: #3a453a;
@@ -75,10 +76,11 @@ li {
   font-size: 22;
 }
 
-span{
+span {
   font-size: 70;
-
+  color: #145214;
 }
+
 .right {
   text-align: right;
   margin: 0;
@@ -144,7 +146,6 @@ span{
 #gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
-
 }
 
 #gallery>figcaption {
