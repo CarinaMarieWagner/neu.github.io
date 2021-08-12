@@ -139,6 +139,9 @@ span {
   border: 6px solid white;
   padding: 10px 30px;
 }
+.margin{
+  margin-left: 10px;
+}
 
 #gallery {
   display: grid;
