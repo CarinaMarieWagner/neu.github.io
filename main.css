@@ -75,6 +75,10 @@ li {
   font-size: 22;
 }
 
+span{
+  font-size: 70;
+
+}
 .right {
   text-align: right;
   margin: 0;
