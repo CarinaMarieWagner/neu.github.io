@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: verdana;
-  color: #3a453a;
+  color: #000000;
   margin-left: 300px;
   margin-right: 300px;
   margin-top: 30px;
@@ -28,11 +28,6 @@ ul {
   margin: 0;
   padding: 0;
   text-align: center;
-}
-
-p {
-  margin: 0;
-  padding: 0;
 }
 
 h1 {
@@ -66,10 +61,11 @@ h4 {
 }
 
 p {
-  font-size: 20;
+  font-size: 22;
   padding: 00 0 0 0px;
-  color: #3a453a;
-  font-family: verdana;
+  color: #000000;
+  font-family: verdana; 
+   margin: 0;  
 }
 
 li {
@@ -79,6 +75,7 @@ li {
 span {
   font-size: 70;
   color: #145214;
+  white-space: nowrap;
 }
 
 .right {
