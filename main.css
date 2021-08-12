@@ -82,12 +82,20 @@ li {
   background-color: rgb(112, 112, 112);
 }
 
-.center {
-  text-align: center;
+.greenbackground {
+  background-color: rgba(12, 112, 12, 0.904);
 }
 
 .white {
+  color: rgb(255, 255, 255);
+}
+
+.black {
   color: rgb(0, 0, 0);
+}
+
+.center {
+  text-align: center;
 }
 
 .post {
