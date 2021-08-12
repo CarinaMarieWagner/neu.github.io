@@ -133,3 +133,18 @@ li {
   border: 6px solid white;
   padding: 10px 30px;
 }
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+
+}
+
+#gallery>figcaption {
+  grid-column: 1 / -1;
+}
+
+.border {
+  border: 0.5em solid;
+  color: rgb(255, 255, 255);
+}
