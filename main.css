@@ -1,5 +1,5 @@
 html {
-  background-color: rgba(128, 128, 128, 0.219);
+  background-color: rgb(235, 232, 232);
 }
 
 body {
@@ -93,7 +93,7 @@ span {
 }
 
 .white {
-  color: rgb(255, 255, 255, 0.836);
+  color: rgb(228, 217, 217);
 }
 
 .black {
@@ -150,6 +150,12 @@ span {
   border-radius: 50%;
   width: 15em;
   height: 15em;
+  margin-top: 100px;
+  margin-bottom: -100px;
+}
+
+.margintop {
+  margin-top: 100px;
 }
 
 .bold {
@@ -175,44 +181,42 @@ span {
 .nowrap {
   white-space: nowrap;
 }
-.topfootbackground{
+
+.topfootbackground {
   background-color: rgba(77, 163, 91, 0.781);
 }
-.bottomfootbackground{
+
+.bottomfootbackground {
   background-color: rgba(77, 163, 92, 0.87);
 }
-.gallerysize{
-  height:400px; 
-  width:300px
+
+.gallerysize {
+  height: 400px;
+  width: 300px
 }
 
-.whitetwo{
-  color: rgba(255, 255, 255, 0.836);
+.whitetwo {
+  color: rgba(255, 253, 253, 0.836);
 }
-.green{
+
+.green {
   color: rgb(30, 146, 30);
 }
 
+.firstcatpic {
+  float: right;
+  margin-top: -80px;
+  margin-right: 210;
+  width: "500px";
+  height: "600px";
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.secoundcatpic {
+  float: left;
+  margin-top: -500px;
+  width: "500px";
+  height: "600px"
+}
 
 .footerpicture {
   width: 62px;
@@ -231,7 +235,7 @@ span {
 
 .border {
   border: 0.5em solid;
-  color: rgb(255, 255, 255);
+  color: rgb(235, 232, 232);
 }
 
 .sidenav {
@@ -292,4 +296,7 @@ span {
 
 #myBBtn:hover {
   background-color: #555;
+}
+.darkgreenback{
+  background-color: #145214;
 }
