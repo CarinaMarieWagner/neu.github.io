@@ -9,6 +9,23 @@
 </header>
 
 <body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Link //Work in Progress//</a>
+  </div>
+  <div style="background-color: rgb(145, 143, 143);text-align: right;">
+    <span style="text-align:right;margin-right:50px;font-size:30px;cursor:pointer" onclick="openNav()">&#9776;
+      open</span>
+  </div>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
   <div class="greenbackground">
     <center><img src="https://www.bz-berlin.de/data/uploads/2017/08/dhcsbhsxoaaffzw_1503003345-768x432.jpg"
         class="border" style=" object-fit: cover;object-position: 50% 0;border-radius: 50%;width: 15em;height: 15em; ">
@@ -17,7 +34,7 @@
   </div>
   <p class="center">Welcome to my webseite.</p>
   <p class="center">My name is Carina Wagner and I am an austrian student.</p>
-  <h4>You can contact me here:</h4>
+  <h3 style="font-weight: bold;" class="center">You can contact me here:</h3>
   <ol>
     <li>Carina Wagner</li>
     <li>Kleopferstraße</li>
@@ -25,14 +42,14 @@
     <li>Austria</li>
   </ol>
   <div class="greenbackground">
-    <h2 class="white"> About me</h2>
+    <h2 class="white" style="margin-left: 15px;"> About me</h2>
   </div>
   <div class="greybackground">
-    <p class="black">My name is Carina Wagner, I am from Austria.</p>
-    <p class="black">I am 16 years old and a student of a technical college in Vienna.</p>
-    <p class="black">I am living together with my mother Petra, my father Christian,</p>
-    <p class="black">my little sister Lisa and my two dogs Brenda and Terry.</p>
-    <p class="black">In my freetime I usually hang out with my friends.</p>
+    <p class="black margin">My name is Carina Wagner, I am from Austria.</p>
+    <p class="black margin">I am 16 years old and a student of a technical college in Vienna.</p>
+    <p class="black margin">I am living together with my mother Petra, my father Christian,</p>
+    <p class="black margin">my little sister Lisa and my two dogs Brenda and Terry.</p>
+    <p class="black margin">In my freetime I usually hang out with my friends.</p>
   </div>
   <div class="right greybackground">
     <p class="black">I am trying really to learn something new for my software skills nearly daily.</p>
@@ -43,20 +60,24 @@
     <p class="black">I programmed a few little webseites there is also still a lot to improve and getting better with.
     </p>
   </div>
-  <br>
+  <hr>
+  <hr>
   <span style="white-space: nowrap;">i am <span style="font-weight: bold">designer</span></span>
-  <img src="https://www.myself.de/Undefined/image-thumb__8842__gallery-vertical/s%C3%BC%C3%9Fes-katzenfoto.jpg"
-    style="margin-left: 600px; float: right;" width="500px" height="600px">
-
-  <img src="https://www.myself.de/Undefined/image-thumb__8842__gallery-vertical/s%C3%BC%C3%9Fes-katzenfoto.jpg"
-    style="float:left;" width="500px" height="600px">
+  <span style="white-space: nowrap;">
+    <img src="https://www.myself.de/Undefined/image-thumb__8842__gallery-vertical/s%C3%BC%C3%9Fes-katzenfoto.jpg"
+      style=" float: right;margin-top:-80px; margin-right: 210;" width="500px" height="600px">
+  </span>
+  <span style="white-space: nowrap;">
+    <img src="https://www.myself.de/Undefined/image-thumb__8842__gallery-vertical/s%C3%BC%C3%9Fes-katzenfoto.jpg"
+      style="float:left; margin-top:-500px" width="500px" height="600px">
+  </span>
   <hr>
   <h2>Schools</h2>
   <ol>
     <li>
       <h4>Higher technical college in Vienna</h4>
     </li>
-    <li>2019 - Present</li>
+    <li> 2019 - Present</li>
     <hr>
     <a align="center" href="https://www.htl-donaustadt.at">
       <img
@@ -78,14 +99,13 @@
       <p style="color:rgba(30, 146, 30);">----------------------------------------------</p>
       <h4>First school in Vienna</h4>
     </li>
-    <li>2011 - 2015</li>
+    <li>Started: 2011 - 2015</li>
     <br>
     <a href="http://www.offene-volksschule-an-der-lobau.at/Startseite/">
       <img src="https://github.com/CarinaMarieWagner/carinawagner.github.io/blob/main/Download.jpeg?raw=true" width="80"
         height="80">
     </a>
   </ol>
-
   <h2>Technical skills</h2>
   <ul>
     <li>Word ● ● ● ● ○</li>
@@ -115,9 +135,8 @@
     <li>spending time with my sister🏓︁</li>
     <li>cooking food🍴︁</li>
     <li>baking cakes and cookies🍪</li>
-    <li>writing storys</li>
-    <li>watching TV</li>
-    <li>going to school</li>
+    <li>writing storys🖊️</li>
+    <li>going to school🏫</li>
   </ul>
   <hr>
   <br>
@@ -129,33 +148,56 @@
     <div class="post" style="margin-left: 10px;">
       <img
         src="https://media.discordapp.net/attachments/830539932828172319/869345669100474388/connileinposeplatzhalter.png"
-        width="394" height="221" ;>
+        width="394" height="221">
       <div class="post-s">
         <h2>picture of a character in blender</h2>
       </div>
     </div>
+    <!--https://media.discordapp.net/attachments/830539932828172319/865326666707107840/Versuch2.png-->
+    <!--https://media.discordapp.net/attachments/750671753784852520/865324488022687754/Versuch5.png-->
     <figure id="gallery">
       <figure>
         <img src="https://www.myself.de/Undefined/image-thumb__8842__gallery-vertical/s%C3%BC%C3%9Fes-katzenfoto.jpg"
           alt="Katze" height=400px; width=300px>
-        <figcaption>Katze</figcaption>
+        <figcaption>Cat</figcaption>
       </figure>
       <figure>
-        <img src="https://www.myself.de/Undefined/image-thumb__8842__gallery-vertical/s%C3%BC%C3%9Fes-katzenfoto.jpg"
+        <img src="https://www.petplan.co.uk/images/breed-info/border-collie/Border-Collie_Vital-Stats_Petplan.jpg"
           alt="Katze" height=400px; width=300px>
-        <figcaption>Katze</figcaption>
+        <figcaption>Cat</figcaption>
       </figure>
       <figure>
         <img src="https://www.myself.de/Undefined/image-thumb__8842__gallery-vertical/s%C3%BC%C3%9Fes-katzenfoto.jpg"
-          alt="Kate" height=400px; width=300px>
+          alt="Cat" height=400px; width=300px>
         <figcaption>Katze</figcaption>
       </figure>
     </figure>
     <br>
   </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
   <hr>
+</body>
+<script>
+
+  mybutton = document.getElementById("myBtn");
+  window.onscroll = function () {
+    scrollFunction()
+  }
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block"
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+<footer>
   <div style="background-image:url(https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg)">
-    <h4>Please follow us on social media so we can stay in touch. </h4>
+    <h4>Please follow us on social media so we can stay in touch.</h4>
     <a href="https://www.instagram.com/">
       <img src="https://image.flaticon.com/icons/png/512/87/87390.png" alt="InstagramLogo"
         style="width:62px; height:62px; margin-left: 450px;">
@@ -179,10 +221,13 @@
         alt="FacebookLogo" style="width:62px; height:62px;margin-left: 20px;">
     </a>
   </div>
-</body>
-<footer style="text-align: center;">
-  <h5>Carina Wagner</h5>
+</footer>
+<footer style="text-align: center;background-color: rgba(77, 163, 91, 0.781);">
   <h5>Munich on the 11/08/2021 and the 12/08/2021</h5>
 </footer>
+<footer style="background-color: rgba(77, 163, 92, 0.87);">
+  <h5 class="center">from Carina Wagner </h5>
+</footer>
+
 </html>
 <!--𝔈𝔦𝔫 𝔨𝔩𝔢𝔦𝔫𝔢𝔯 𝔣𝔦𝔰𝔠𝔥 𝔦𝔰𝔱 𝔢𝔦𝔫 𝔣𝔦𝔰𝔠𝔥 <>< -->
