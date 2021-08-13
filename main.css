@@ -139,7 +139,8 @@ span {
   border: 6px solid white;
   padding: 10px 30px;
 }
-.margin{
+
+.margin {
   margin-left: 10px;
 }
 
@@ -155,4 +156,64 @@ span {
 .border {
   border: 0.5em solid;
   color: rgb(255, 255, 255);
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 10px 10px 10px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #8f8c8c;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #fffbfb;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+#myBtn {
+  display: none;
+  border: none;
+  outline: none;
+  background-color: rgba(50, 105, 18, 0.911);
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBBtn:hover {
+  background-color: #555;
 }
