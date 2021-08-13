@@ -144,6 +144,82 @@ span {
   margin-left: 10px;
 }
 
+.profilpicture {
+  object-fit: cover;
+  object-position: 50% 0;
+  border-radius: 50%;
+  width: 15em;
+  height: 15em;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.fivteenleft {
+  margin-left: 15px
+}
+
+.tenleft {
+  margin-left: 10px;
+}
+
+.hundredleft {
+  margin-left: 100px;
+}
+
+.fourfiftyleft {
+  margin-left: 450px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+.topfootbackground{
+  background-color: rgba(77, 163, 91, 0.781);
+}
+.bottomfootbackground{
+  background-color: rgba(77, 163, 92, 0.87);
+}
+.gallerysize{
+  height:400px; 
+  width:300px
+}
+
+.whitetwo{
+  color: rgba(255, 255, 255, 0.836);
+}
+.green{
+  color: rgb(30, 146, 30);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerpicture {
+  width: 62px;
+  height: 62px;
+  margin-left: 20px;
+}
+
 #gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
@@ -205,7 +281,7 @@ span {
   display: none;
   border: none;
   outline: none;
-  background-color: rgba(50, 105, 18, 0.911);
+  background-color: rgba(12, 112, 12, 0.904);
   color: white;
   cursor: pointer;
   width: 100px;
