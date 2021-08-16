@@ -224,13 +224,8 @@ span {
   margin-left: 20px;
 }
 
-#gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
-}
-
-#gallery>figcaption {
-  grid-column: 1 / -1;
+.darkgreenback {
+  background-color: #145214;
 }
 
 .border {
@@ -281,6 +276,23 @@ span {
   }
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.item {
+  order: 5;
+  flex-grow: 4;
+  flex-shrink: 3;
+  flex-basis: auto;
+  flex: none;
+  align-self: auto;
+}
+
 #myBtn {
   display: none;
   border: none;
@@ -298,6 +310,11 @@ span {
   background-color: #555;
 }
 
-.darkgreenback {
-  background-color: #145214;
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+}
+
+#gallery>figcaption {
+  grid-column: 1 / -1;
 }
