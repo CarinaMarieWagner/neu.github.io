@@ -35,31 +35,23 @@ span {
   font-size: 70;
 }
 
+.profilpicture {
+  object-fit: cover;
+  object-position: 50% 0;
+  border-radius: 50%;
+  width: 15em;
+  height: 15em;
+  margin-top: 100px;
+  margin-bottom: -100px;
+}
+
+<!--Colors-->
 .h1color {
   color: #145214;
 }
 
 .headingcolorgreen {
   color: #006400;
-}
-
-.noliststyle {
-  list-style: none;
-}
-
-.zeropaddingandmargin {
-  margin: 0px;
-  padding: 0px;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-.right {
-  text-align: right;
-  margin: 0;
-  padding: 0;
 }
 
 .greybackground {
@@ -78,10 +70,103 @@ span {
   color: rgb(0, 0, 0);
 }
 
-.center {
+.whitetwo {
+  color: rgba(255, 253, 253, 0.836);
+}
+
+.green {
+  color: rgb(30, 146, 30);
+}
+
+.darkgreenback {
+  background-color: #145214;
+}
+
+.topfootbackground {
+  background-color: rgba(77, 163, 91, 0.781);
+}
+
+.bottomfootbackground {
+  background-color: rgba(77, 163, 92, 0.87);
+}
+
+.footerpicture {
+  width: 62px;
+  height: 62px;
+  margin-left: 20px;
+}
+
+<!--styles-->
+.noliststyle {
+  list-style: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.border {
+  border: 0.5em solid;
+  color: rgb(235, 232, 232);
+}
+
+<!--layout-->.center {
   text-align: center;
 }
 
+.zeropaddingandmargin {
+  margin: 0px;
+  padding: 0px;
+}
+
+.right {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.margin {
+  margin-left: 10px;
+}
+
+.margintop {
+  margin-top: 100px;
+}
+
+.fivteenleft {
+  margin-left: 15px
+}
+
+.tenleft {
+  margin-left: 10px;
+}
+
+.hundredleft {
+  margin-left: 100px;
+}
+
+.fourfiftyleft {
+  margin-left: 450px;
+}
+
+.mitte {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+<!--Posts-->
 .post {
   width: 394px;
   height: 221px;
@@ -118,99 +203,24 @@ span {
   padding: 10px 30px;
 }
 
-.margin {
-  margin-left: 10px;
-}
-
-.profilpicture {
-  object-fit: cover;
-  object-position: 50% 0;
-  border-radius: 50%;
-  width: 15em;
-  height: 15em;
-  margin-top: 100px;
-  margin-bottom: -100px;
-}
-
-.margintop {
-  margin-top: 100px;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.fivteenleft {
-  margin-left: 15px
-}
-
-.tenleft {
-  margin-left: 10px;
-}
-
-.hundredleft {
-  margin-left: 100px;
-}
-
-.fourfiftyleft {
-  margin-left: 450px;
-}
-
-.nowrap {
-  white-space: nowrap;
-}
-
-.topfootbackground {
-  background-color: rgba(77, 163, 91, 0.781);
-}
-
-.bottomfootbackground {
-  background-color: rgba(77, 163, 92, 0.87);
-}
-
+<!--Gallery-->
 .gallerysize {
   height: 400px;
-  width: 300px
+  width: 300px;
+  padding: 0px;
+  margin: 0px;
 }
 
-.whitetwo {
-  color: rgba(255, 253, 253, 0.836);
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
 }
 
-.green {
-  color: rgb(30, 146, 30);
+#gallery>figcaption {
+  grid-column: 1 / -1;
 }
 
-.firstcatpic {
-  float: right;
-  margin-top: -80px;
-  margin-right: 210;
-  width: "500px";
-  height: "600px";
-}
-
-.secoundcatpic {
-  float: left;
-  margin-top: -500px;
-  width: "500px";
-  height: "600px"
-}
-
-.footerpicture {
-  width: 62px;
-  height: 62px;
-  margin-left: 20px;
-}
-
-.darkgreenback {
-  background-color: #145214;
-}
-
-.border {
-  border: 0.5em solid;
-  color: rgb(235, 232, 232);
-}
-
+<!--Sidenav-->
 .sidenav {
   height: 100%;
   width: 0;
@@ -254,6 +264,25 @@ span {
   }
 }
 
+<!--Button-->
+#myBtn {
+  display: none;
+  border: none;
+  outline: none;
+  background-color: rgba(12, 112, 12, 0.904);
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBBtn:hover {
+  background-color: #555;
+}
+
+<!--flexbox-->
 .container {
   display: flex;
   flex-direction: row;
@@ -276,37 +305,6 @@ span {
   position: relative;
 }
 
-.mitte {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-#myBtn {
-  display: none;
-  border: none;
-  outline: none;
-  background-color: rgba(12, 112, 12, 0.904);
-  color: white;
-  cursor: pointer;
-  width: 100px;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 18px;
-}
-
-#myBBtn:hover {
-  background-color: #555;
-}
-
-#gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
-}
-
-#gallery>figcaption {
-  grid-column: 1 / -1;
+.layout {
+  display: table-row;
 }
