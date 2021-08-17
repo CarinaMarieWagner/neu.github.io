@@ -169,8 +169,7 @@ span {
 }
 
 .gallerysize {
-  height: 400px;
-  width: 300px
+  align-items: stretch;
 }
 
 .whitetwo {
