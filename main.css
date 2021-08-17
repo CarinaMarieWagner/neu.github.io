@@ -192,7 +192,7 @@ span {
 
 .border {
   border: 0.5em solid;
-  color: rgba(235, 232, 232);
+  color: rgb(235, 232, 232);
 }
 
 .sidenav {
@@ -212,7 +212,7 @@ span {
   padding: 10px 10px 10px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #8f8c8c;
+  color: rgb(143, 140, 140);
   display: block;
   transition: 0.3s;
 }
