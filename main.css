@@ -5,67 +5,26 @@ html {
 body {
   font-family: 'Nunito Sans', sans-serif;
   color: #000000;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  -ms-flex-align: baseline;
-}
-
-ol {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
 }
 
 h1 {
   font-size: 70;
-  text-align: center;
-  color: #145214;
-  size: 60px;
-  font-family: verdana;
 }
 
 h2 {
   font-size: 50;
-  color: #006400;
-  text-decoration-line: underline;
-  font-family: verdana;
 }
 
 h3 {
   font-size: 30;
-  color: #006400;
-  text-decoration-line: underline;
-  font-family: verdana;
 }
 
 h4 {
   font-size: 25;
-  size: 20px;
-  padding: 0 10 0 0px;
-  font-family: verdana;
-  color: #006400;
 }
 
 p {
   font-size: 22;
-  padding: 00 0 0 0px;
-  color: #000000;
-  font-family: verdana;
-  margin: 0;
 }
 
 li {
@@ -74,8 +33,27 @@ li {
 
 span {
   font-size: 70;
+}
+
+.h1color {
   color: #145214;
-  white-space: nowrap;
+}
+
+.headingcolorgreen {
+  color: #006400;
+}
+
+.noliststyle {
+  list-style: none;
+}
+
+.zeropaddingandmargin {
+  margin: 0px;
+  padding: 0px;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .right {
@@ -292,7 +270,8 @@ span {
   flex: none;
   align-self: auto;
 }
-.box { 
+
+.box {
   height: 200px;
   position: relative;
 }
