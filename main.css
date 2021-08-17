@@ -310,13 +310,16 @@ span {
 #gallery>figcaption {
   grid-column: 1 / -1;
 }
-.navbackground{
+
+.navbackground {
   background-color: rgb(145, 143, 143);
   text-align: right;
 }
-.whitethree{
-  background-color:#ffffff;
+
+.whitethree {
+  background-color: #ffffff;
 }
-.blue{
- background-color: rgb(64, 166, 250);
+
+.blue {
+  background-color: rgb(64, 166, 250);
 }
