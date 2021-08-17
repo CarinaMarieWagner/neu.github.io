@@ -180,21 +180,6 @@ span {
   color: rgb(30, 146, 30);
 }
 
-.firstcatpic {
-  float: right;
-  margin-top: -80px;
-  margin-right: 210;
-  width: "500px";
-  height: "600px";
-}
-
-.secoundcatpic {
-  float: left;
-  margin-top: -500px;
-  width: "500px";
-  height: "600px"
-}
-
 .footerpicture {
   width: 62px;
   height: 62px;
