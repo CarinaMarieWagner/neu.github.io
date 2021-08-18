@@ -1,3 +1,5 @@
+/*that is how you do a command in css sheet*/
+
 html {
   background-color: rgb(235, 232, 232);
 }
@@ -6,6 +8,8 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   color: #000000;
 }
+
+/*Font size*/
 
 h1 {
   font-size: 70;
@@ -23,6 +27,14 @@ h4 {
   font-size: 25;
 }
 
+h5 {
+  font-size: 15;
+}
+
+h6 {
+  font-size: 15;
+}
+
 p {
   font-size: 22;
 }
@@ -33,18 +45,6 @@ li {
 
 span {
   font-size: 70;
-}
-
-.h1color {
-  color: #145214;
-}
-
-.headingcolorgreen {
-  color: #006400;
-}
-
-.noliststyle {
-  list-style: none;
 }
 
 .zeropaddingandmargin {
@@ -60,22 +60,6 @@ span {
   text-align: right;
   margin: 0;
   padding: 0;
-}
-
-.greybackground {
-  background-color: rgb(112, 112, 112);
-}
-
-.greenbackground {
-  background-color: rgba(12, 112, 12, 0.904);
-}
-
-.white {
-  color: rgb(228, 217, 217);
-}
-
-.black {
-  color: rgb(0, 0, 0);
 }
 
 .center {
@@ -136,10 +120,6 @@ span {
   margin-top: 100px;
 }
 
-.bold {
-  font-weight: bold;
-}
-
 .fivteenleft {
   margin-left: 15px
 }
@@ -160,17 +140,42 @@ span {
   white-space: nowrap;
 }
 
+/*Colors*/
+
+.greybackground {
+  background-color: rgb(112, 112, 112);
+}
+
+.greenbackground {
+  background-color: rgba(12, 112, 12, 0.904);
+}
+
+.white {
+  color: rgb(228, 217, 217);
+}
+
+.black {
+  color: rgb(0, 0, 0);
+}
+
+.h1color {
+  color: #145214;
+}
+
+.headingcolorgreen {
+  color: #006400;
+}
+
+.blue {
+  background-color: rgb(27, 141, 235);
+}
+
 .topfootbackground {
   background-color: rgba(77, 163, 91, 0.781);
 }
 
 .bottomfootbackground {
   background-color: rgba(77, 163, 92, 0.87);
-}
-
-.gallerysize {
-  height: 400px;
-  width: 300px
 }
 
 .whitetwo {
@@ -181,19 +186,30 @@ span {
   color: rgb(30, 146, 30);
 }
 
-.firstcatpic {
-  float: right;
-  margin-top: -80px;
-  margin-right: 210;
-  width: "500px";
-  height: "600px";
+.whitethree {
+  background-color: #ffffff;
 }
 
-.secoundcatpic {
-  float: left;
-  margin-top: -500px;
-  width: "500px";
-  height: "600px"
+.darkgreenback {
+  background-color: #145214;
+}
+
+.gallerysize {
+  align-self: stretch;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*text decoration*/
+
+.bold {
+  font-weight: bold;
+}
+
+.noliststyle {
+  list-style: none;
 }
 
 .footerpicture {
@@ -201,11 +217,7 @@ span {
   height: 62px;
   margin-left: 20px;
 }
-
-.darkgreenback {
-  background-color: #145214;
-}
-
+/**/
 .border {
   border: 0.5em solid;
   color: rgb(235, 232, 232);
@@ -228,7 +240,7 @@ span {
   padding: 10px 10px 10px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #8f8c8c;
+  color: rgb(143, 140, 140);
   display: block;
   transition: 0.3s;
 }
@@ -258,8 +270,8 @@ span {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: flex-start;
-  align-content: flex-start;
+  align-items: center;
+  align-content: center;
 }
 
 .item {
@@ -269,6 +281,9 @@ span {
   flex-basis: auto;
   flex: none;
   align-self: auto;
+  max-width: 200px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .box {
@@ -285,12 +300,14 @@ span {
   transform: translate(-50%, -50%);
 }
 
+/*button*/
+
 #myBtn {
   display: none;
   border: none;
   outline: none;
   background-color: rgba(12, 112, 12, 0.904);
-  color: white;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   width: 100px;
   padding: 15px;
@@ -302,9 +319,17 @@ span {
   background-color: #555;
 }
 
+/*Gallery*/
+
 #gallery {
+  display: flex;
+  flex-direction: row;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(20em, 30em));
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  size: 100%;
 }
 
 #gallery>figcaption {
@@ -315,11 +340,7 @@ span {
   background-color: rgb(145, 143, 143);
   text-align: right;
 }
-
-.whitethree {
-  background-color: #ffffff;
-}
-
-.blue {
-  background-color: rgb(64, 166, 250);
+figure{
+  margin: 0px;
+  padding: 0px;
 }
