@@ -9,6 +9,8 @@ body {
   color: #000000;
 }
 
+/*Font size*/
+
 h1 {
   font-size: 70;
 }
@@ -25,6 +27,14 @@ h4 {
   font-size: 25;
 }
 
+h5 {
+  font-size: 15;
+}
+
+h6 {
+  font-size: 15;
+}
+
 p {
   font-size: 22;
 }
@@ -36,7 +46,6 @@ li {
 span {
   font-size: 70;
 }
-
 
 .zeropaddingandmargin {
   margin: 0px;
@@ -111,8 +120,6 @@ span {
   margin-top: 100px;
 }
 
-
-
 .fivteenleft {
   margin-left: 15px
 }
@@ -160,7 +167,7 @@ span {
 }
 
 .blue {
-  background-color: rgb(64, 166, 250);
+  background-color: rgb(27, 141, 235);
 }
 
 .topfootbackground {
@@ -190,10 +197,13 @@ span {
 .gallerysize {
   align-self: stretch;
 }
+
 /*text decoration*/
+
 .bold {
   font-weight: bold;
 }
+
 .noliststyle {
   list-style: none;
 }
@@ -203,6 +213,7 @@ span {
   height: 62px;
   margin-left: 20px;
 }
+
 .border {
   border: 0.5em solid;
   color: rgb(235, 232, 232);
@@ -281,7 +292,9 @@ span {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
 /*button*/
+
 #myBtn {
   display: none;
   border: none;
@@ -298,7 +311,9 @@ span {
 #myBBtn:hover {
   background-color: #555;
 }
+
 /*Geallery*/
+
 #gallery {
   display: flex;
   flex-direction: row;
