@@ -275,13 +275,10 @@ span {
 }
 
 .item {
-  order: 5;
-  flex-grow: 4;
-  flex-shrink: 3;
   flex-basis: auto;
   flex: none;
   align-self: auto;
-  max-width: 200px;
+  max-width: 50%;
   margin: 0px;
   padding: 0px;
 }
