@@ -340,3 +340,7 @@ span {
   background-color: rgb(145, 143, 143);
   text-align: right;
 }
+figure{
+  margin: 0px;
+  padding: 0px;
+}
