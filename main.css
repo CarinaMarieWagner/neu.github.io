@@ -1,4 +1,4 @@
-/*that is how you do a command in css sheet*/ 
+/*that is how you do a command in css sheet*/
 
 html {
   background-color: rgb(235, 232, 232);
@@ -164,7 +164,7 @@ span {
 
 .headingcolorgreen {
   color: #006400;
-  }
+}
 
 .blue {
   background-color: rgb(27, 141, 235);
@@ -217,7 +217,7 @@ span {
   height: 62px;
   margin-left: 20px;
 }
-
+/**/
 .border {
   border: 0.5em solid;
   color: rgb(235, 232, 232);
