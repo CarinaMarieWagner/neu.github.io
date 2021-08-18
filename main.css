@@ -171,7 +171,7 @@ span {
 .gallerysize {
   align-items: stretch;
 }
-
+  
 .whitetwo {
   color: rgba(255, 253, 253, 0.836);
 }
@@ -287,9 +287,14 @@ span {
 }
 
 #gallery {
+  display: flex;
+  flex-direction: row;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20em, 30em));
-  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch ;
+  align-items: stretch;
 }
 
 #gallery>figcaption {
