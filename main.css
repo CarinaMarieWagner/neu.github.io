@@ -277,6 +277,7 @@ span {
   flex-basis: auto;
   flex: none;
   align-self: auto;
+  max-width: 100px;
 }
 
 .box {
