@@ -1,4 +1,4 @@
-/*that is how you do a command in css sheet*/
+/*that is how you do a command in css sheet*/ 
 
 html {
   background-color: rgb(235, 232, 232);
@@ -164,7 +164,7 @@ span {
 
 .headingcolorgreen {
   color: #006400;
-}
+  }
 
 .blue {
   background-color: rgb(27, 141, 235);
@@ -196,6 +196,10 @@ span {
 
 .gallerysize {
   align-self: stretch;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 /*text decoration*/
@@ -277,7 +281,9 @@ span {
   flex-basis: auto;
   flex: none;
   align-self: auto;
-  max-width: 100px;
+  max-width: 200px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .box {
@@ -313,7 +319,7 @@ span {
   background-color: #555;
 }
 
-/*Geallery*/
+/*Gallery*/
 
 #gallery {
   display: flex;
@@ -323,7 +329,7 @@ span {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-content: stretch;
-  align-items: stretch;
+  size: 100%;
 }
 
 #gallery>figcaption {

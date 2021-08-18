@@ -77,13 +77,13 @@
       <span class="nowrap h1color">i am <span class="bold h1color">designer</span></span>
       <span class="nowrap container h1color">
         <img src="https://www.myself.de/Undefined/image-thumb__8842__gallery-vertical/s%C3%BC%C3%9Fes-katzenfoto.jpg"
-          class="item">
+          class="item" style="padding: 0px;margin: 0px;">
       </span>
     </div>
     <div>
       <span class="nowrap container h1color">
         <img src="https://www.myself.de/Undefined/image-thumb__8842__gallery-vertical/s%C3%BC%C3%9Fes-katzenfoto.jpg"
-          class="item">
+          class="item" style="padding: 0px;margin: 0px";>
       </span>
     </div>
   </div>
@@ -166,7 +166,7 @@
     </div>
     <!--https://media.discordapp.net/attachments/830539932828172319/865326666707107840/Versuch2.png -->
     <!--https://media.discordapp.net/attachments/750671753784852520/865324488022687754/Versuch5.png -->
-    <figure id="gallery">
+    <figure id="gallery" class="nopaddingandmargin">
       <figure>
         <img src="https://www.myself.de/Undefined/image-thumb__8842__gallery-vertical/s%C3%BC%C3%9Fes-katzenfoto.jpg"
           alt="Katze" class="gallerysize">
@@ -196,58 +196,61 @@
       <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     </div>
   </div>
-</body>
-<script>
+  </body>
+  <script>
 
-  mybutton = document.getElementById("myBtn");
-  window.onscroll = function () {
-    scrollFunction()
-  }
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      mybutton.style.display = "block"
-    } else {
-      mybutton.style.display = "none";
+    mybutton = document.getElementById("myBtn");
+    window.onscroll = function () {
+      scrollFunction()
     }
-  }
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-</script>
-<footer>
-  <div style="background-image:url(https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg);">
-    <h4 class="center headingcolorgreen">Please follow us on social media so we can stay in touch.</h4>
-    <div class="center">
-      <span style="background-color: #938f83
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block"
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <footer>
+    <div
+      style="background-image:url(https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg);">
+      <h4 class="center headingcolorgreen">Please follow us on social media so we can stay in touch.</h4>
+      <div class="center">
+        <span style="background-color: #938f83
       ;">
-        <a href="https://www.instagram.com/">
-          <img src="https://image.flaticon.com/icons/png/512/87/87390.png" alt="InstagramLogo" class="footerpicture ">
-          <!--style="margin-left: 450px;"-->
-        </a>
-        <a href="https://twitter.com/">
+          <a href="https://www.instagram.com/">
+            <img src="https://image.flaticon.com/icons/png/512/87/87390.png" alt="InstagramLogo" class="footerpicture ">
+            <!--style="margin-left: 450px;"-->
+          </a>
+          <a href="https://twitter.com/">
 
-          <img src="https://img.icons8.com/ios/100/000000/twitter--v1.png/" alt="TwitterLogo" class="footerpicture">
-        </a>
-        <a href="https://web.telegram.org/k/">
-          <img src="https://image.flaticon.com/icons/png/512/1946/1946547.png" alt="TelegramLogo" class="footerpicture">
-        </a>
-        <a href="https://www.snapchat.com/">
-          <img src="https://image.flaticon.com/icons/png/512/2111/2111803.png" alt="SnapchatLogo" class="footerpicture">
-        </a>
-        <a href="https://www.facebook.com/">
-          <img src="https://img.icons8.com/ios/50/000000/facebook--v1.png" alt="FacebookLogo" class="footerpicture">
-        </a>
-      </span>
+            <img src="https://img.icons8.com/ios/100/000000/twitter--v1.png/" alt="TwitterLogo" class="footerpicture">
+          </a>
+          <a href="https://web.telegram.org/k/">
+            <img src="https://image.flaticon.com/icons/png/512/1946/1946547.png" alt="TelegramLogo"
+              class="footerpicture">
+          </a>
+          <a href="https://www.snapchat.com/">
+            <img src="https://image.flaticon.com/icons/png/512/2111/2111803.png" alt="SnapchatLogo"
+              class="footerpicture">
+          </a>
+          <a href="https://www.facebook.com/">
+            <img src="https://img.icons8.com/ios/50/000000/facebook--v1.png" alt="FacebookLogo" class="footerpicture">
+          </a>
+        </span>
+      </div>
     </div>
-  </div>
-</footer>
-<footer class="center topfootbackground">
-  <h5>Munich on the 11/08/2021 and the 12/08/2021</h5>
-</footer>
-<footer class="bottomfootbackground">
-  <h5 class="center">from Carina Wagner </h5>
-</footer>
+  </footer>
+  <footer class="center topfootbackground">
+    <h5>Munich on the 11/08/2021 and the 12/08/2021</h5>
+  </footer>
+  <footer class="bottomfootbackground">
+    <h5 class="center">from Carina Wagner </h5>
+  </footer>
 
 </html>
 <!--𝔈𝔦𝔫 𝔨𝔩𝔢𝔦𝔫𝔢𝔯 𝔣𝔦𝔰𝔠𝔥 𝔦𝔰𝔱 𝔢𝔦𝔫 𝔣𝔦𝔰𝔠𝔥 <>< -->
