@@ -1,3 +1,5 @@
+/*that is how you do a command in css sheet*/
+
 html {
   background-color: rgb(235, 232, 232);
 }
@@ -35,14 +37,6 @@ span {
   font-size: 70;
 }
 
-.h1color {
-  color: #145214;
-}
-
-.headingcolorgreen {
-  color: #006400;
-}
-
 .noliststyle {
   list-style: none;
 }
@@ -60,22 +54,6 @@ span {
   text-align: right;
   margin: 0;
   padding: 0;
-}
-
-.greybackground {
-  background-color: rgb(112, 112, 112);
-}
-
-.greenbackground {
-  background-color: rgba(12, 112, 12, 0.904);
-}
-
-.white {
-  color: rgb(228, 217, 217);
-}
-
-.black {
-  color: rgb(0, 0, 0);
 }
 
 .center {
@@ -160,16 +138,42 @@ span {
   white-space: nowrap;
 }
 
+/*Colors*/
+
+.greybackground {
+  background-color: rgb(112, 112, 112);
+}
+
+.greenbackground {
+  background-color: rgba(12, 112, 12, 0.904);
+}
+
+.white {
+  color: rgb(228, 217, 217);
+}
+
+.black {
+  color: rgb(0, 0, 0);
+}
+
+.h1color {
+  color: #145214;
+}
+
+.headingcolorgreen {
+  color: #006400;
+}
+
+.blue {
+  background-color: rgb(64, 166, 250);
+}
+
 .topfootbackground {
   background-color: rgba(77, 163, 91, 0.781);
 }
 
 .bottomfootbackground {
   background-color: rgba(77, 163, 92, 0.87);
-}
-
-.gallerysize {
-  align-self: stretch;
 }
 
 .whitetwo {
@@ -180,14 +184,22 @@ span {
   color: rgb(30, 146, 30);
 }
 
-.footerpicture {
-  width: 62px;
-  height: 62px;
-  margin-left: 20px;
+.whitethree {
+  background-color: #ffffff;
 }
 
 .darkgreenback {
   background-color: #145214;
+}
+
+.gallerysize {
+  align-self: stretch;
+}
+
+.footerpicture {
+  width: 62px;
+  height: 62px;
+  margin-left: 20px;
 }
 
 .border {
@@ -242,8 +254,8 @@ span {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  align-items: flex-start;
-  align-content: flex-start;
+  align-items: center;
+  align-content: center;
 }
 
 .item {
@@ -268,7 +280,7 @@ span {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
+/*button*/
 #myBtn {
   display: none;
   border: none;
@@ -293,7 +305,7 @@ span {
   grid-template-columns: repeat(auto-fill, minmax(20em, 30em));
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-content: stretch ;
+  align-content: stretch;
   align-items: stretch;
 }
 
@@ -304,12 +316,4 @@ span {
 .navbackground {
   background-color: rgb(145, 143, 143);
   text-align: right;
-}
-
-.whitethree {
-  background-color: #ffffff;
-}
-
-.blue {
-  background-color: rgb(64, 166, 250);
 }
