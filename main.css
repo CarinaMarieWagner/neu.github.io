@@ -281,6 +281,7 @@ span {
   flex: none;
   align-self: auto;
   max-width: 90%;
+  max-height: 50%;
   margin: 0px;
   padding: 0px;
 }
