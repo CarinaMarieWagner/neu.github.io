@@ -187,7 +187,7 @@ span {
 }
 
 .green {
-  color: rgb(30, 146, 30);
+  color: #1e921e;
 }
 
 .whitethree {
@@ -230,7 +230,7 @@ span {
 
 .border {
   border: 0.5em solid;
-  color: rgb(235, 232, 232);
+  color: #ebe8e8;
 }
 
 .sidenav {
@@ -250,7 +250,7 @@ span {
   padding: 10px 10px 10px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: rgb(143, 140, 140);
+  color: #8f8c8c;
   display: block;
   transition: 0.3s;
 }
@@ -313,8 +313,8 @@ span {
   display: none;
   border: none;
   outline: none;
-  background-color: rgba(12, 112, 12, 0.904);
-  color: rgb(255, 255, 255);
+  background-color: #0c700ce7;
+  color: #ffffff;
   cursor: pointer;
   width: 100px;
   padding: 15px;
@@ -323,7 +323,7 @@ span {
 }
 
 #myBBtn:hover {
-  background-color: #555;
+  background-color: #555555;
 }
 
 /*Gallery*/
@@ -385,9 +385,9 @@ figure {
 }
 
 .post1-s h2 {
-  color: white;
+  color: #ffffff;
   font-size: 20;
-  border: 6px solid white;
+  border: 6px solid #ffffff;
   padding: 10px 30px;
 }
 
