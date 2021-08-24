@@ -382,3 +382,9 @@ figure {
   border: 6px solid white;
   padding: 10px 30px;
 }
+.nav{
+  text-align:right;
+  margin-right:50px;
+  font-size:30px;
+  cursor:pointer
+}
