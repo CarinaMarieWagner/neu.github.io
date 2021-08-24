@@ -362,7 +362,7 @@ figure {
   cursor: pointer;
 }
 
-.post1:hover .post-s {
+.post1:hover .post1-s {
   width: 100%;
 }
 
@@ -374,7 +374,7 @@ figure {
 
 .post1-s {
   width: 0px;
-  height: 100%;
+  height: 640px;
   background: rgba(0, 0, 0, 0.95);
   position: absolute;
   top: 0;
