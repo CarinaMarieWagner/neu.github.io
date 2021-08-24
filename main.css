@@ -66,6 +66,8 @@ span {
   text-align: center;
 }
 
+/*Post*/
+
 .post {
   width: 394px;
   height: 221px;
@@ -102,10 +104,6 @@ span {
   padding: 10px 30px;
 }
 
-.margin {
-  margin-left: 10px;
-}
-
 .profilpicture {
   object-fit: cover;
   object-position: 50% 0;
@@ -114,6 +112,12 @@ span {
   height: 15em;
   margin-top: 100px;
   margin-bottom: -100px;
+}
+
+/*Margins*/
+
+.margin {
+  margin-left: 10px;
 }
 
 .margintop {
