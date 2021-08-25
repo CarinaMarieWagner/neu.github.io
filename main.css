@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: 'Nunito Sans', sans-serif;
-  color: #000000;
+  color: rgb(0, 0, 0);
 }
 
 /*Font size*/
@@ -163,11 +163,11 @@ span {
 }
 
 .h1color {
-  color: #145214;
+  color: rgb(20, 82, 20);
 }
 
 .headingcolorgreen {
-  color: #006400;
+  color: rgb(0, 100, 0);
 }
 
 .blue {
@@ -179,27 +179,27 @@ span {
 }
 
 .bottomfootbackground {
-  background-color: rgba(77, 163, 92, 0.87);
+  background-color: rgba(77, 163, 92, 0.871);
 }
 
 .whitetwo {
-  color: rgba(255, 253, 253, 0.836);
+  color: rgba(255, 253, 253, 0.835);
 }
 
 .green {
-  color: #1e921e;
+  color: rgb(30, 146, 30);
 }
 
 .whitethree {
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
 }
 
 .darkgreenback {
-  background-color: #145214;
+  background-color: rgb(20, 82, 20);
 }
 
 .greybackgroundtwo {
-  background-color: #938f83;
+  background-color: rgb(147, 143, 131);
 }
 
 .gallerysize {
@@ -230,7 +230,7 @@ span {
 
 .border {
   border: 0.5em solid;
-  color: #ebe8e8;
+  color: rgb(235, 232, 232);
 }
 
 .sidenav {
@@ -240,7 +240,7 @@ span {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111111;
+  background-color: rgb(17, 17, 17);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -250,13 +250,13 @@ span {
   padding: 10px 10px 10px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #8f8c8c;
+  color: rgb(143, 140, 140);
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #fffbfb;
+  color: rgb(255, 251, 251);
 }
 
 .sidenav .closebtn {
@@ -313,8 +313,8 @@ span {
   display: none;
   border: none;
   outline: none;
-  background-color: #0c700ce7;
-  color: #ffffff;
+  background-color: rgba(12, 112, 12, 0.906);
+  color: rgb(255, 255, 255);
   cursor: pointer;
   width: 100px;
   padding: 15px;
@@ -323,7 +323,7 @@ span {
 }
 
 #myBBtn:hover {
-  background-color: #555555;
+  background-color: rgb(85, 85, 85);
 }
 
 /*Gallery*/
@@ -385,9 +385,9 @@ figure {
 }
 
 .post1-s h2 {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-size: 20;
-  border: 6px solid #ffffff;
+  border: 6px solid rgb(255, 255, 255);
   padding: 10px 30px;
 }
 
