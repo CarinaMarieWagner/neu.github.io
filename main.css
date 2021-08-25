@@ -169,6 +169,12 @@ span {
 .headingcolorgreen {
   color: rgb(0, 100, 0);
 }
+.greenbackgroundfaded{
+  background-color: rgba(12, 112, 12, 0.103);
+}
+.greybackgroundfaded{
+  background-color: rgba(112, 112, 112, 0.815);
+}
 
 .blue {
   background-color: rgb(27, 141, 235);
