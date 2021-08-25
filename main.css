@@ -363,7 +363,7 @@ figure {
 
 .post1 {
   width: 480px;
-  height: 640px;
+  height: 100%;
   position: relative;
   cursor: pointer;
 }
@@ -375,12 +375,12 @@ figure {
 .post1 img {
   display: block;
   width: 480px;
-  height: 640px;
+  height: 100%;
 }
 
 .post1-s {
   width: 0px;
-  height: 480px;
+  height: 100%;
   background: rgba(0, 0, 0, 0.95);
   position: absolute;
   top: 0;
