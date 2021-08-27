@@ -403,3 +403,45 @@ figure {
   font-size: 30px;
   cursor: pointer
 }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  p{
+    font-size: 40px;
+  }
+  h1{
+    font-size: 90px;
+  }
+  h2 {
+    font-size: 50;
+  }
+  
+  h3 {
+    font-size: 30;
+  }
+  
+  h4 {
+    font-size: 25;
+  }
+  
+  h5 {
+    font-size: 15;
+  }
+  
+  h6 {
+    font-size: 15;
+  }
+  
+  p {
+    font-size: 22;
+  }
+  
+  li {
+    font-size: 22;
+  }
+  
+  span {
+    font-size: 70;
+  }
+}
